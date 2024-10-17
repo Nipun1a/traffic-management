@@ -1,0 +1,35 @@
+/* src/HomePage.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./jam.webp'); /* Correct path */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+  
+  h1 {
+    color: white;                        /* Text color to contrast with the background */
+    font-size: 2.5rem;                   /* Size of the heading */
+    margin-bottom: 2rem;                 /* Spacing between heading and button */
+  }
+  
+  .start-button {
+    padding: 15px 30px;                  /* Button padding */
+    font-size: 1.2rem;                   /* Size of the button text */
+    background-color: rgba(0, 123, 255, 0.8);  /* Semi-transparent blue */
+    color: white;                        /* Button text color */
+    border: none;                        /* Remove default button border */
+    border-radius: 5px;                  /* Rounded button corners */
+    cursor: pointer;                     /* Pointer cursor on hover */
+  }
+  
+  .start-button:hover {
+    background-color: rgba(0, 86, 179, 0.8);  /* Darker blue on hover */
+  }
+  
